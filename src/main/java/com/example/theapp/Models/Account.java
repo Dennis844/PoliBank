@@ -22,4 +22,10 @@ public abstract class Account {
     public StringProperty accountNumberProperty() {return accountNumber;}
 
     public DoubleProperty balanceProperty() {return balance;}
+
+    public void setBalance(double balance) {
+        this.balance.set(balance);
+    }
+
+
 }

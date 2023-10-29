@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class ViewFactory {
@@ -126,6 +127,10 @@ public class ViewFactory {
             e.printStackTrace();
         }
         return depositView;
+    }
+
+    public void showMessageWindow() {
+        StackPane Pane=new StackPane();
     }
 
     private void createStage(FXMLLoader loader) {
